@@ -2,6 +2,8 @@
 
 The source code of my personal portfolio website, [dionaidan.com](https://dionaidan.com). It introduces me, lists my experience, projects, skills and education, and offers my CV for download.
 
+![Screenshot of the portfolio homepage](docs/screenshot.png)
+
 ## Features
 
 - **Bilingual (Dutch and English)**: the language defaults to the visitor's browser setting, the choice is remembered, and the CV download follows the chosen language.
