@@ -61,7 +61,11 @@ export interface Content {
 }
 
 export const PROJECT_LINKS = {
-  KOBO: "https://github.com/verkerkaidan/Kobo-Custom-Book-Cover-Background",
+  HOBBITON: "https://github.com/verkerkaidan/school-project-hobbiton",
+  KOBO: "https://github.com/verkerkaidan/kobo-dynamic-screensaver",
+  KNKF: "https://github.com/verkerkaidan/knkf-notifier",
+  MEDITATION: "https://github.com/verkerkaidan/school-project-meditation-app",
+  PORTFOLIO: "https://github.com/verkerkaidan/portfolio",
   FORTIUS: "https://lskvfortius.nl",
 };
 
@@ -138,6 +142,8 @@ export const en: Content = {
       description:
         "A social media website for sharing hobbies, built in a group of 5 with around 15 microservices in different languages. I owned a Notification Service using websockets (Go) and a Profile Connections Service (Java).",
       tags: ["Java", "Go", "Docker", "PostgreSQL"],
+      href: PROJECT_LINKS.HOBBITON,
+      linkLabel: "View on GitHub",
     },
     {
       title: "Kobo Dynamic Sleep Screen",
@@ -156,6 +162,33 @@ export const en: Content = {
       tags: ["WordPress", "Figma", "SEO"],
       href: PROJECT_LINKS.FORTIUS,
       linkLabel: "Visit website",
+    },
+    {
+      title: "KNKF Notifier",
+      meta: "Personal project · Nov 2025",
+      description:
+        "The KNKF powerlifting calendar has no way to subscribe to new competitions, so I built a scraper that detects added, removed and changed competitions and emails me about them. Includes a web calendar with filters.",
+      tags: ["Python", "Next.js", "Supabase", "GitHub Actions"],
+      href: PROJECT_LINKS.KNKF,
+      linkLabel: "View on GitHub",
+    },
+    {
+      title: "Meditation App",
+      meta: "School project · Oct 2024",
+      description:
+        "An iOS meditation app built on my own with SwiftUI. Complete sessions to earn coins for a store with pet hats, backgrounds and soundtracks, unlock achievements and follow your history in a chart.",
+      tags: ["Swift", "SwiftUI", "Swift Charts"],
+      href: PROJECT_LINKS.MEDITATION,
+      linkLabel: "View on GitHub",
+    },
+    {
+      title: "This portfolio",
+      meta: "Personal project · Nov 2025",
+      description:
+        "This bilingual (Dutch and English) site, built with the Next.js App Router, TypeScript and Tailwind CSS, with all content in one typed file.",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+      href: PROJECT_LINKS.PORTFOLIO,
+      linkLabel: "View on GitHub",
     },
   ],
   skillsHeader: "Skills",
@@ -256,6 +289,8 @@ export const nl: Content = {
       description:
         "Een social media website waar gebruikers hun hobby’s delen, gebouwd in een groep van 5 met zo’n 15 microservices in verschillende talen. Mijn verantwoordelijkheid: een Notification Service met websockets (Go) en een Profile Connections Service (Java).",
       tags: ["Java", "Go", "Docker", "PostgreSQL"],
+      href: PROJECT_LINKS.HOBBITON,
+      linkLabel: "Bekijk op GitHub",
     },
     {
       title: "Kobo Dynamisch Sleep Screen",
@@ -274,6 +309,33 @@ export const nl: Content = {
       tags: ["WordPress", "Figma", "SEO"],
       href: PROJECT_LINKS.FORTIUS,
       linkLabel: "Bezoek website",
+    },
+    {
+      title: "KNKF Notifier",
+      meta: "Persoonlijk project · nov 2025",
+      description:
+        "De KNKF-powerliftingkalender biedt geen manier om je aan te melden voor nieuwe wedstrijden, dus bouwde ik een scraper die toegevoegde, verwijderde en gewijzigde wedstrijden herkent en me daarover mailt. Met een webkalender met filters.",
+      tags: ["Python", "Next.js", "Supabase", "GitHub Actions"],
+      href: PROJECT_LINKS.KNKF,
+      linkLabel: "Bekijk op GitHub",
+    },
+    {
+      title: "Meditatie-app",
+      meta: "Schoolproject · okt 2024",
+      description:
+        "Een iOS-meditatie-app die ik zelf bouwde met SwiftUI. Voltooi sessies om munten te verdienen voor een winkel met hoedjes, achtergronden en soundtracks, ontgrendel prestaties en volg je geschiedenis in een grafiek.",
+      tags: ["Swift", "SwiftUI", "Swift Charts"],
+      href: PROJECT_LINKS.MEDITATION,
+      linkLabel: "Bekijk op GitHub",
+    },
+    {
+      title: "Deze portfolio",
+      meta: "Persoonlijk project · nov 2025",
+      description:
+        "Deze tweetalige (Nederlands en Engels) site, gebouwd met de Next.js App Router, TypeScript en Tailwind CSS, met alle content in één getypt bestand.",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+      href: PROJECT_LINKS.PORTFOLIO,
+      linkLabel: "Bekijk op GitHub",
     },
   ],
   skillsHeader: "Skills",
